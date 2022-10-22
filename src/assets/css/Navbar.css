@@ -1,0 +1,63 @@
+.App-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.App-nav div {
+    flex: initial;
+    display: flex;
+    align-items: center;
+}
+
+.App-nav nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.App-nav nav ul li {
+    margin-left: 15px;
+}
+
+.App-logo a {
+    color: #c67605;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none; 
+}
+
+.App-nav nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.App-nav nav a:hover {
+    color: #fff;
+    text-decoration: none;
+    color: #ededed;
+}
+
+.App-nav-cart-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: bottom;
+}
+
+.cart-badge {
+    position: relative;
+    border-radius: 9px;  
+    background-color: #c67605;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 5px;
+    margin-left: -8px; 
+    margin-bottom: -5px;
+    top: -7px;
+}
+
+.cart-amount {
+    font-size: 13px;
+    font-weight: bold;
+}

@@ -1,0 +1,131 @@
+.App-product {
+    width: 100%;
+    height: 9rem;
+    box-sizing: border-box;
+    margin: .3rem;
+}
+
+.App-product-content {
+    padding: .8rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.05);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.App-product-icon {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    box-sizing: border-box;
+    padding: .1rem;
+}
+
+.App-product-icon img {
+    width: 100%;
+}
+
+.App-product-info {
+    align-items: start;
+    box-sizing: border-box;
+    padding: .1rem 1rem;
+}
+
+.App-product-name {
+    font-weight: 400;
+    height: 1.8rem;
+    margin: .3rem 0;
+    font-size: 1rem;
+}
+
+.App-product-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    margin-bottom: .5rem;
+    align-items: baseline;
+}
+
+.App-product-cart {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: baseline;
+}
+
+.App-product-cart-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: bottom;
+    margin-right: .2rem;
+}
+
+.App-product-quantity {
+    margin-left: .5rem;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #c67605;
+}
+
+.App-product-total {
+    font-weight: lighter;
+    font-size: small;
+    margin-left: .5rem;
+    color: rgba(0,0,0,.5);
+}
+
+.App-product-subtotal {
+    width: 100%;
+}
+
+.App-product-subtotal-key {
+    font-weight: light;
+    font-size: large;
+}
+
+.App-product-subtotal-value {
+    font-weight: bold;
+    font-size: large;
+}
+
+.App-product-catalog-loading {
+    text-align: center;
+    padding: .3rem 0;
+    font-weight: lighter;
+}
+
+.App-product-error {
+    font-style: italic;
+    color: #f76045;
+}
+
+.App-product-error, .App-product-proceed {
+    padding: 1rem 0;
+}
+
+@media (min-width: 529px) {
+    .App-product {
+        width: calc(50% - .9rem);
+    }
+    .App-product-subtotal {
+        width: calc(50% - .9rem);
+    }
+}
+
+@media (min-width: 769px) {
+    .App-product {
+        width: calc(50% - .9rem);
+    }
+    .App-product-subtotal {
+        width: calc(50% - .9rem);
+    }
+}
+
+@media (min-width: 1025px) {
+    .App-product {
+        width: calc(33.33% - .9rem);
+    }
+    .App-product-subtotal {
+        width: calc(33.33% - .9rem);
+    }
+}

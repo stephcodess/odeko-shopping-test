@@ -1,0 +1,42 @@
+.App-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f7ca01;
+  padding: 0.5rem 2rem;
+}
+
+.App-main {
+  padding: 2rem;
+}
+
+.App-righter {
+  grid-column-start: 5;
+  grid-column-end: span 2;
+}
+
+.App-rightest {
+  grid-column-start: 6;
+  grid-column-end: span 1;
+}
+
+.App-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.App-flex-col {
+  flex: 1 1 0%;
+  flex-grow: 1;
+}
+
+.App-product-catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, .1);
+}
